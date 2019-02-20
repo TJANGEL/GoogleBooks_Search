@@ -55,7 +55,7 @@ class Books extends Component {
     return (
       <Container fluid>
         <Row>
-          <Col size="md-6">
+          <Col size="md-12">
             <Jumbotron>
               <h1>What Book are You Looking For?</h1>
             </Jumbotron>
@@ -64,7 +64,7 @@ class Books extends Component {
                 value={this.state.title}
                 onChange={this.handleInputChange}
                 name="title"
-                placeholder="Title (required)"
+                placeholder="Title"
               />
               {/* <Input
                 value={this.state.author}
@@ -86,9 +86,9 @@ class Books extends Component {
               </FormBtn>
             </form>
           </Col>
-          {/* <Col size="md-6 sm-12">
+          <Col size="md-12 sm-12">
             <Jumbotron>
-              <h1>Books On My List</h1>
+              <h1>Results</h1>
             </Jumbotron>
             {this.state.books.length ? (
               <List>
@@ -106,7 +106,7 @@ class Books extends Component {
             ) : (
               <h3>No Results to Display</h3>
             )}
-          </Col> */}
+          </Col>
         </Row>
       </Container>
     );
