@@ -1,6 +1,12 @@
 # GoogleBooks_Search
 
-Google Books Search app
+Google Books Search App
+
+Users are able to search for books by searching with title
+
+Users will be given a list of books based off the book title they search
+
+When users click on a book they will get redirected to a page containing the purchase information and a synopsis and review of the book
 
 ![GoogleBooks_Search](#)
 
