@@ -87,9 +87,7 @@ class Books extends Component {
             </form>
           </Col>
           <Col size="md-12 sm-12">
-            <Jumbotron>
-              <h1>Results</h1>
-            </Jumbotron>
+            <h1>Results</h1>
             {this.state.books.length ? (
               <List>
                 {this.state.books.map(book => (
