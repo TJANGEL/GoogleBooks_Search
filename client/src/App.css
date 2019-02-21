@@ -117,6 +117,21 @@ button[disabled] {
   margin-right: 1.75vw;
 }
 
+.footer {
+  min-height: 100px;
+  background: #e5e5e5;
+  position: relative;
+}
+
+.footer span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 3px;
+  background: #b8b8b8;
+}
+
 @media screen and (min-width: 480px) {
   .bookResult .row:nth-of-type(2) {
     display: flex;

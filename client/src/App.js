@@ -5,6 +5,7 @@ import Search from "./pages/Search";
 import Saved from "./pages/Saved";
 import Nav from "./components/Nav";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
             <Route exact path="/" component={Search} />
             <Route path="/saved" component={Saved} />
           </Switch>
+          <Footer />
         </div>
       </Router>
     );

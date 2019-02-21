@@ -1,10 +1,9 @@
 import React from "react";
-import "./style.css";
 
 function Footer() {
   return (
     <footer className="footer">
-      <span>Pupster 2017</span>
+      <span>Thomas Angeloni 2019</span>
     </footer>
   );
 }
