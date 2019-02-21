@@ -12,7 +12,14 @@ const headerStyle = {
 function Header() {
   return (
     <header style={headerStyle}>
-      <h1>Google Books Search</h1>
+      <h1>
+        <span className="g">G</span>
+        <span className="o1">o</span>
+        <span className="o2">o</span>
+        <span className="g">g</span>
+        <span className="l">l</span>
+        <span className="e">e</span> Books Search
+      </h1>
       <p>What Would You Like to Read?</p>
     </header>
   );

@@ -6,7 +6,12 @@ function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <Link className="navbar-brand" to="/">
-        Google Books Search
+        <span className="g">G</span>
+        <span className="o1">o</span>
+        <span className="o2">o</span>
+        <span className="g">g</span>
+        <span className="l">l</span>
+        <span className="e">e</span> Books Search
       </Link>
       <div>
         <ul className="navbar-nav">

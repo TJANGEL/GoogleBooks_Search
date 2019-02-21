@@ -132,6 +132,23 @@ button[disabled] {
   background: #b8b8b8;
 }
 
+/* Google text color */
+.g {
+  color: blue;
+}
+.o1 {
+  color: red;
+}
+.o2 {
+  color: yellow;
+}
+.l {
+  color: green;
+}
+.e {
+  color: red;
+}
+
 @media screen and (min-width: 480px) {
   .bookResult .row:nth-of-type(2) {
     display: flex;
