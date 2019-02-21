@@ -1,7 +1,7 @@
 require("dotenv").config();
 const express = require("express");
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 2019;
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
@@ -13,7 +13,7 @@ if (process.env.NODE_ENV === "production") {
 
 const mongoose = require("mongoose");
 const mongoURL =
-  process.env.PROD_MONGODB || "mongodb://localhost:3500/googlebooks";
+  process.env.PROD_MONGODB || "mongodb://localhost:27017/googlebooksearch";
 mongoose
   .connect(mongoURL, { useNewUrlParser: true })
   .then(() => {

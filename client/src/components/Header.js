@@ -1,5 +1,5 @@
 import React from "react";
-import heroImage from "../images/books.jpeg";
+import heroImage from "../images/books2.jpg";
 
 const headerStyle = {
   backgroundImage: `url(${heroImage})`,
@@ -12,8 +12,8 @@ const headerStyle = {
 function Header() {
   return (
     <header style={headerStyle}>
-      <h1>(React) Google Books Search</h1>
-      <p>Search for and Save Books of Interest</p>
+      <h1>Google Books Search</h1>
+      <p>What Would You Like to Read?</p>
     </header>
   );
 }
