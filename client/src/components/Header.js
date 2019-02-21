@@ -1,5 +1,5 @@
 import React from "react";
-import heroImage from "../images/books-2.jpg";
+import heroImage from "../images/books.jpeg";
 
 const headerStyle = {
   backgroundImage: `url(${heroImage})`,
