@@ -4,7 +4,7 @@ import heroImage from "../images/books2.jpg";
 const headerStyle = {
   backgroundImage: `url(${heroImage})`,
   maxWidth: "100vw",
-  height: "calc(100vw * .43333)",
+  height: "30vw",
   backgroundSize: "cover",
   position: "relative"
 };
