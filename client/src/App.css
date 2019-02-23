@@ -30,6 +30,12 @@ h3 {
   font-size: 3vw;
 }
 
+#searchContainer h3,
+#resultsContainer h3 {
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
 form {
   padding: 1rem 0 1.5rem;
   position: relative;
@@ -66,10 +72,6 @@ button[disabled] {
 
 #resultsContainer {
   font-size: 1rem;
-}
-
-#resultsContainer h3 {
-  margin-bottom: 3.5vw;
 }
 
 .bookResult {
