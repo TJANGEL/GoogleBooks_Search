@@ -1,4 +1,8 @@
-.nav-link {
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-link:active {
   color: orange;
 }
 
@@ -121,7 +125,7 @@ button[disabled] {
 
 /* Footer */
 .footer {
-  min-height: 100px;
+  min-height: 200px;
   position: relative;
   text-align: center;
 }
@@ -129,7 +133,8 @@ button[disabled] {
 .footer span {
   position: absolute;
   color: #f9c411;
-  text-shadow: 2px 1px 1px #33658a;
+  font-size: 20px;
+  text-shadow: 2px 1px 1px black;
   bottom: 0;
   left: 0;
   right: 0;
