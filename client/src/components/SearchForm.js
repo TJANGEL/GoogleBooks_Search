@@ -19,7 +19,11 @@ function SearchForm(props) {
           required={true}
         />
         <br />
-        <button type="submit" onClick={e => props.handleSearchClick(e)}>
+        <button
+          className="search"
+          type="submit"
+          onClick={e => props.handleSearchClick(e)}
+        >
           Search
         </button>
       </form>

@@ -29,7 +29,7 @@ h3 {
 #resultsContainer {
   color: ivory;
   background-color: #33658a;
-  padding: 2vw;
+  padding: 3.5vw;
   margin: 2vw;
   font-size: 3vw;
 }
@@ -54,24 +54,6 @@ input {
   width: 98%;
   padding: 0.75vw;
   font-size: 1.25vw;
-}
-
-button {
-  border-radius: 0;
-  border: none;
-  background-color: #f9c411;
-  color: ivory;
-  padding: 10px;
-  font-size: 1.25vw;
-}
-
-form button {
-  position: absolute;
-  right: 0;
-}
-
-button[disabled] {
-  background-color: #f9e39f;
 }
 
 #resultsContainer {
@@ -111,7 +93,28 @@ button[disabled] {
   display: inline-block;
   width: 75%;
   padding: 0;
-  /* margin: 1.75vw 0 0 1.75vw; */
+}
+
+/* buttons */
+button[disabled] {
+  background-color: rgba(187, 25, 25, 0.584);
+}
+
+button {
+  background-color: #f9c411;
+  color: ivory;
+  padding: 10px;
+  font-size: 1.25vw;
+}
+
+form button {
+  position: absolute;
+  right: 0;
+}
+
+.search {
+  border-radius: 5px;
+  margin-right: 30px;
 }
 
 .btnDiv {
