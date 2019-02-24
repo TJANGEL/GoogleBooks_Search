@@ -28,7 +28,8 @@ div {
 #searchContainer,
 #resultsContainer {
   color: ivory;
-  background-color: #33658a;
+  background-color: #8a335e;
+  border-radius: 5px;
   padding: 3.5vw;
   margin: 2vw;
   font-size: 3vw;
