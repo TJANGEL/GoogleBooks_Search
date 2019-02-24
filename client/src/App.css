@@ -27,7 +27,7 @@ h3 {
 
 #searchContainer,
 #resultsContainer {
-  color: white;
+  color: ivory;
   background-color: #33658a;
   padding: 2vw;
   margin: 2vw;
@@ -60,7 +60,7 @@ button {
   border-radius: 0;
   border: none;
   background-color: #f9c411;
-  color: white;
+  color: ivory;
   padding: 10px;
   font-size: 1.25vw;
 }
@@ -79,7 +79,7 @@ button[disabled] {
 }
 
 .bookResult {
-  background-color: white;
+  background-color: ivory;
   color: black;
   padding: 1.75vw;
   font-size: 1rem;

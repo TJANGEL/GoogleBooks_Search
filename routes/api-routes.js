@@ -19,9 +19,7 @@ module.exports = function(app) {
     let bookTitle = req.body.title.replace(/\s/g, "+");
     axios
       .get(
-        `https://www.googleapis.com/books/v1/volumes?q=${bookTitle}&key=${
-          process.env.GBOOKS_KEY
-        }`
+        `https://www.googleapis.com/books/v1/volumes?q=${bookTitle}&key=AIzaSyAPj3CIwCl-4W1_Naxi__zTKlutfP48W_c`
       )
       .then(response => {
         res.json(response.data.items);
