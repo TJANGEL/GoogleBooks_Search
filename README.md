@@ -12,7 +12,7 @@ When users click on a book they will get redirected to a page containing the pur
 
 ## Deployment (Heroku)
 
-Click [here](#) to view Heroku deployed website
+Click [here](https://stark-ravine-88623.herokuapp.com/) to view Heroku deployed website
 
 ### npm install packages
 
