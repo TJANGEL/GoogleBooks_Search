@@ -2,10 +2,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.nav-link:active {
-  color: orange;
-}
-
 header h1 {
   font-size: 7vw;
   text-align: center;
@@ -135,9 +131,9 @@ form button {
 
 .footer span {
   position: absolute;
-  color: #f9c411;
+  color: #33658a;
   font-size: 20px;
-  text-shadow: 2px 1px 1px black;
+  text-shadow: 1px 1px 0.5px black;
   bottom: 0;
   left: 0;
   right: 0;
@@ -146,20 +142,17 @@ form button {
 }
 
 /* Google text color */
-.g {
+.blue {
   color: blue;
 }
-.o1 {
+.red {
   color: red;
 }
-.o2 {
+.yellow {
   color: yellow;
 }
-.l {
+.green {
   color: green;
-}
-.e {
-  color: red;
 }
 
 @media screen and (min-width: 480px) {

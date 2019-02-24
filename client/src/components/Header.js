@@ -13,12 +13,12 @@ function Header() {
   return (
     <header style={headerStyle}>
       <h1>
-        <span className="g">G</span>
-        <span className="o1">o</span>
-        <span className="o2">o</span>
-        <span className="g">g</span>
-        <span className="l">l</span>
-        <span className="e">e</span> Books Search
+        <span className="blue">G</span>
+        <span className="red">o</span>
+        <span className="yellow">o</span>
+        <span className="blue">g</span>
+        <span className="green">l</span>
+        <span className="red">e</span> Books Search
       </h1>
       <p>What Would You Like to Read?</p>
     </header>
