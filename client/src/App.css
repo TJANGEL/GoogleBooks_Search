@@ -5,14 +5,14 @@ body {
 /* navbar */
 .navbar-brand {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /* header */
 header h1 {
   font-size: 7vw;
   text-align: center;
-  color: ivory;
+  color: rgb(224, 224, 219);
   padding: 5% 0 3%;
   text-shadow: 5px 5px 30px black;
 }
@@ -20,7 +20,7 @@ header h1 {
 header p {
   font-size: 3vw;
   text-align: center;
-  color: ivory;
+  color: rgb(224, 224, 219);
   text-shadow: 5px 5px 30px black;
 }
 
