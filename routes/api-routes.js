@@ -16,11 +16,12 @@ module.exports = function(app) {
 
   app.post("/search", (req, res) => {
     // set bookTitle to the req.body.title with spaces replaced with plus signs(+)
-    let bookTitle = req.body.title.replace(/\s/g, "+");
+    // let bookTitle = req.body.title.replace(/\s/g, "+");
+
+    // google api
+    // const URL = "https://www.googleapis.com/books/v1/volumes?q=";
     axios
-      .get(
-        `https://www.googleapis.com/books/v1/volumes?q=${bookTitle}&key=AIzaSyAPj3CIwCl-4W1_Naxi__zTKlutfP48W_c`
-      )
+      .get("https://www.googleapis.com/books/v1/volumes")
       .then(response => {
         res.json(response.data.items);
       })
