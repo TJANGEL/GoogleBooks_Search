@@ -2,13 +2,15 @@
 
 Google Books Search App
 
-Users are able to search for books by searching with title
+Users are able to search for books by searching for the title
 
 Users will be given a list of books based off the book title they search
 
 When users click on a book they will get redirected to a page containing the purchase information and a synopsis and review of the book
 
-![GoogleBooks_Search](#)
+Users can save specific books to view later and can find them in a list on the saved page of the app
+
+![GoogleBooks_Search](https://github.com/TJANGEL/GoogleBooks_Search/blob/master/client/src/images/googlebooks_search_screenshot.png)
 
 ## Deployment (Heroku)
 
