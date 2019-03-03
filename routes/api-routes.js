@@ -21,7 +21,7 @@ module.exports = function(app) {
     // google api
     // const URL = "https://www.googleapis.com/books/v1/volumes?q=";
     axios
-      .get("https://www.googleapis.com/books/v1/volumes")
+      .get(`https://www.googleapis.com/books/v1/volumes?=${query}`)
       .then(response => {
         res.json(response.data.items);
       })
