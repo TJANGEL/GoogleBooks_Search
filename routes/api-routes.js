@@ -1,4 +1,3 @@
-require("dotenv").config();
 const axios = require("axios");
 const db = require("../models");
 const path = require("path");
@@ -16,10 +15,7 @@ module.exports = function(app) {
 
   app.post("/search", (req, res) => {
     // set bookTitle to the req.body.title with spaces replaced with plus signs(+)
-    // let bookTitle = req.body.title.replace(/\s/g, "+");
-
-    // google api
-    // const URL = "https://www.googleapis.com/books/v1/volumes?q=";
+    let bookTitle = req.body.title.replace(/\s/g, "+");
     axios
       .get(`https://www.googleapis.com/books/v1/volumes?=${bookTitle}`)
       .then(response => {
